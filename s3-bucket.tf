@@ -1,6 +1,6 @@
 module "s3_bucket" {
   source  = "app.terraform.io/Galex/s3-bucket/aws"
-  version = "3.6.1"
+  version = "2.8.0"
 
   bucket_prefix = var.prefix
   acl    = "private"
